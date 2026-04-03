@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  --azai-primary: #C17A5E;
+  --azai-dark: #8B4A30;
+  --azai-light: #E8C5B0;
+  --azai-bg: #F9F0E8;
+  --brume-primary: #D4A574;
+  --brume-cream: #FBF5EE;
+  --brume-brown: #5C3D2E;
+  --ink: #1C1210;
+  --ink-medium: #6B4F3A;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: #FDFAF7;
+  color: #1C1210;
+  overflow-x: hidden;
+}
+
+* { box-sizing: border-box; }
+
+/* Custom utilities */
+.text-gradient-azai {
+  background: linear-gradient(135deg, #C17A5E, #E8C5B0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.text-gradient-brume {
+  background: linear-gradient(135deg, #D4A574, #FBF5EE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.ring-gradient {
+  background: linear-gradient(135deg, #FF6B9D, #FF8C42, #F5A623);
+  padding: 2px;
+  border-radius: 9999px;
+}
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
