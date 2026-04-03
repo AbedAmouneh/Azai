@@ -88,27 +88,28 @@ export default function Footer() {
         </div>
 
         {/* Bottom */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-8">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-6 pt-8">
           <p className="font-sans text-xs text-white/20">
             © {new Date().getFullYear()} AZAI × BRUME. All rights reserved. Jal El Dib, Lebanon.
           </p>
-          <div className="flex items-center gap-6">
-            <Link href="/blog" className="font-display text-[10px] tracking-widest uppercase text-white/25 hover:text-white/50 transition-colors">Journal</Link>
-            <Link href="/contact" className="font-display text-[10px] tracking-widest uppercase text-white/25 hover:text-white/50 transition-colors">Contact</Link>
-            <Link href="/roadmap" className="font-display text-[10px] tracking-widest uppercase text-white/25 hover:text-white/50 transition-colors">Roadmap</Link>
-            <span className="w-px h-3 bg-white/10" />
+          <div className="flex flex-col md:flex-row items-center gap-6">
+            <div className="flex items-center gap-6">
+              <Link href="/blog" className="font-display text-[10px] tracking-widest uppercase text-white/25 hover:text-white/50 transition-colors">Journal</Link>
+              <Link href="/contact" className="font-display text-[10px] tracking-widest uppercase text-white/25 hover:text-white/50 transition-colors">Contact</Link>
+              <Link href="/roadmap" className="font-display text-[10px] tracking-widest uppercase text-white/25 hover:text-white/50 transition-colors">Roadmap</Link>
+            </div>
             <a
               href="https://voxire.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 opacity-30 hover:opacity-60 transition-opacity duration-200"
+              className="group flex items-center gap-3 border border-white/10 hover:border-white/25 bg-white/5 hover:bg-white/10 rounded-full px-4 py-2 transition-all duration-300"
               title="Developed by Voxire"
             >
-              <span className="font-display text-[10px] tracking-widest uppercase text-white">Developed by</span>
+              <span className="font-display text-[9px] font-semibold tracking-[0.2em] uppercase text-white/40 group-hover:text-white/70 transition-colors duration-300">Developed by</span>
               <img
                 src="/instagram/Voxire-logo-enblm-m.png"
                 alt="Voxire"
-                className="h-4 w-auto brightness-0 invert"
+                className="h-[14px] w-auto brightness-0 invert opacity-50 group-hover:opacity-90 transition-opacity duration-300"
               />
             </a>
           </div>
