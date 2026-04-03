@@ -110,16 +110,16 @@ export default function SplitHero() {
 
         {/* ── BOTTOM BAR ── */}
         <div className="absolute bottom-0 left-0 right-0 z-20 flex">
-          <div className="flex-1 bg-black/30 backdrop-blur-sm px-10 lg:px-16 py-3 flex items-center gap-6 border-t border-white/5">
-            <span className="font-display text-[9px] tracking-widest uppercase text-white/40">Jal El Dib</span>
-            <span className="w-px h-3 bg-white/20" />
-            <span className="font-display text-[9px] tracking-widest uppercase text-white/40">Lebanon</span>
+          <div className="flex-1 bg-black/40 backdrop-blur-sm px-10 lg:px-16 py-3.5 flex items-center gap-6 border-t border-white/10">
+            <span className="font-display text-[9px] tracking-widest uppercase text-white/75">Jal El Dib</span>
+            <span className="w-px h-3 bg-white/30" />
+            <span className="font-display text-[9px] tracking-widest uppercase text-white/75">Lebanon</span>
           </div>
-          <div className="w-px bg-white/10" />
-          <div className="flex-1 bg-black/30 backdrop-blur-sm px-10 lg:px-16 py-3 flex items-center gap-6 border-t border-white/5">
-            <span className="font-display text-[9px] tracking-widest uppercase text-white/40">Open Daily</span>
-            <span className="w-px h-3 bg-white/20" />
-            <span className="font-display text-[9px] tracking-widest uppercase text-[#D4A574]/60">7AM – 11PM</span>
+          <div className="w-px bg-white/15" />
+          <div className="flex-1 bg-black/40 backdrop-blur-sm px-10 lg:px-16 py-3.5 flex items-center gap-6 border-t border-white/10">
+            <span className="font-display text-[9px] tracking-widest uppercase text-white/75">Open Daily</span>
+            <span className="w-px h-3 bg-white/30" />
+            <span className="font-display text-[9px] tracking-widest uppercase text-white font-semibold">7AM – 11PM</span>
           </div>
         </div>
       </div>
@@ -168,10 +168,10 @@ export default function SplitHero() {
         </Link>
 
         {/* Bottom bar */}
-        <div className="flex-shrink-0 bg-black/40 backdrop-blur-sm px-7 py-2.5 flex items-center justify-center gap-4 border-t border-white/5">
-          <span className="font-display text-[8px] tracking-widest uppercase text-white/40">Jal El Dib, Lebanon</span>
-          <span className="w-px h-3 bg-white/20" />
-          <span className="font-display text-[8px] tracking-widest uppercase text-[#D4A574]/60">7AM – 11PM Daily</span>
+        <div className="flex-shrink-0 bg-black/50 backdrop-blur-sm px-7 py-3 flex items-center justify-center gap-4 border-t border-white/10">
+          <span className="font-display text-[8px] tracking-widest uppercase text-white/75">Jal El Dib, Lebanon</span>
+          <span className="w-px h-3 bg-white/30" />
+          <span className="font-display text-[8px] tracking-widest uppercase text-white font-semibold">7AM – 11PM Daily</span>
         </div>
       </div>
     </>
