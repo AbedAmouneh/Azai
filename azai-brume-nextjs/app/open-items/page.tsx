@@ -244,7 +244,7 @@ export default function OpenItemsPage() {
               Every feature above is something we can scope, price, and build. Message us and we will walk you through what makes sense for where AZAI is right now.
             </p>
             <a
-              href={WHATSAPP_URL}
+              href="https://wa.me/96170908435"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-[#C17A5E] hover:bg-[#8B4A30] text-white font-display text-[11px] font-semibold tracking-widest uppercase px-9 py-4 rounded-full transition-colors duration-300"
