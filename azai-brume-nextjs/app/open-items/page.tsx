@@ -135,9 +135,20 @@ export default function OpenItemsPage() {
             </h1>
           </AnimateIn>
           <AnimateIn delay={0.2}>
-            <p className="font-sans text-white/50 text-base font-light max-w-2xl leading-relaxed mb-10">
+            <p className="font-sans text-white/50 text-base font-light max-w-2xl leading-relaxed mb-8">
               The site you are looking at is the foundation. Below is everything it can grow into — organized by what each feature does for your business, not just what it is.
             </p>
+          </AnimateIn>
+          <AnimateIn delay={0.25}>
+            <div className="flex items-start gap-4 bg-white/5 border border-white/10 rounded-2xl px-6 py-5 max-w-2xl mb-10">
+              <div className="w-1 h-full min-h-[40px] rounded-full bg-[#C17A5E] flex-shrink-0 mt-0.5" />
+              <div>
+                <p className="font-display text-[10px] font-semibold tracking-widest uppercase text-[#C17A5E] mb-1.5">Important note</p>
+                <p className="font-sans text-sm font-light text-white/60 leading-relaxed">
+                  None of the features on this page are included in the original website. Each one is a separate engagement, scoped and quoted independently based on your needs and timeline.
+                </p>
+              </div>
+            </div>
           </AnimateIn>
           <AnimateIn delay={0.3}>
             <div className="flex flex-wrap gap-3">
