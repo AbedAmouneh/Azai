@@ -10,6 +10,7 @@ const links = [
   { href: "/brume", label: "BRUME Café" },
   { href: "/blog", label: "Journal" },
   { href: "/contact", label: "Contact" },
+  { href: "/open-items", label: "Open Items" },
 ];
 
 export default function Nav() {
