@@ -110,11 +110,16 @@ export default function Footer() {
         <span className="font-display text-[9px] font-semibold tracking-[0.25em] uppercase text-white/30 group-hover:text-white/60 transition-colors duration-300">
           Developed by
         </span>
-        <img
-          src="/instagram/Voxire-logo-enblm-m.png"
-          alt="Voxire"
-          className="h-[13px] w-auto brightness-0 invert opacity-35 group-hover:opacity-75 transition-opacity duration-300"
-        />
+        <div className="flex items-center gap-2 opacity-50 group-hover:opacity-90 transition-opacity duration-300">
+          <img
+            src="/instagram/Voxire-logo-enblm-m.png"
+            alt="Voxire"
+            className="h-[13px] w-auto"
+          />
+          <span className="font-display text-[11px] font-semibold tracking-[0.15em] uppercase text-white">
+            Voxire
+          </span>
+        </div>
       </a>
     </footer>
   );
