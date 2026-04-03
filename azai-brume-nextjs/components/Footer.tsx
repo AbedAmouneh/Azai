@@ -92,10 +92,25 @@ export default function Footer() {
           <p className="font-sans text-xs text-white/20">
             © {new Date().getFullYear()} AZAI × BRUME. All rights reserved. Jal El Dib, Lebanon.
           </p>
-          <div className="flex gap-6">
+          <div className="flex items-center gap-6">
             <Link href="/blog" className="font-display text-[10px] tracking-widest uppercase text-white/25 hover:text-white/50 transition-colors">Journal</Link>
             <Link href="/contact" className="font-display text-[10px] tracking-widest uppercase text-white/25 hover:text-white/50 transition-colors">Contact</Link>
             <Link href="/roadmap" className="font-display text-[10px] tracking-widest uppercase text-white/25 hover:text-white/50 transition-colors">Roadmap</Link>
+            <span className="w-px h-3 bg-white/10" />
+            <a
+              href="https://voxire.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 opacity-30 hover:opacity-60 transition-opacity duration-200"
+              title="Developed by Voxire"
+            >
+              <span className="font-display text-[10px] tracking-widest uppercase text-white">Developed by</span>
+              <img
+                src="/instagram/Voxire-logo-enblm-m.png"
+                alt="Voxire"
+                className="h-4 w-auto brightness-0 invert"
+              />
+            </a>
           </div>
         </div>
       </div>
