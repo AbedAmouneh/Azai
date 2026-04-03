@@ -52,7 +52,7 @@ export default function AzaiPage() {
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10 pb-24 pt-32 w-full">
           <AnimateIn>
             <p className="font-display text-[10px] font-semibold tracking-widest uppercase text-[#E8C5B0] mb-4">AZAI, The Wellness Studio</p>
-            <h1 className="font-serif text-7xl lg:text-[120px] font-light text-white italic leading-none mb-6">
+            <h1 className="font-serif text-[38px] sm:text-5xl md:text-7xl lg:text-[100px] xl:text-[120px] font-light text-white italic leading-none mb-6">
               Movement,<br />focused on<br /><span className="text-[#C17A5E]">what matters.</span>
             </h1>
             <p className="font-sans text-base font-light text-white/65 max-w-md mb-10 leading-relaxed">
@@ -71,7 +71,7 @@ export default function AzaiPage() {
           </AnimateIn>
         </div>
         <div className="absolute bottom-0 left-0 right-0 bg-black/30 backdrop-blur-sm border-t border-white/5">
-          <div className="max-w-7xl mx-auto px-6 lg:px-10 py-4 flex items-center gap-8">
+          <div className="max-w-7xl mx-auto px-6 lg:px-10 py-3 flex flex-wrap items-center gap-x-6 gap-y-1">
             {["Lagree","Reformer","HIIT","Yoga","Sauna","Massage"].map((s) => (
               <span key={s} className="font-display text-[9px] tracking-widest uppercase text-white/35 whitespace-nowrap">{s}</span>
             ))}
@@ -195,7 +195,7 @@ export default function AzaiPage() {
       <section className="py-20 bg-[#FBF5EE]">
         <div className="max-w-7xl mx-auto px-6 lg:px-10">
           <AnimateIn>
-            <div className="flex flex-col md:flex-row items-center gap-8 rounded-3xl bg-white border border-[#F9F0E8] p-10 lg:p-14">
+            <div className="flex flex-col md:flex-row items-center gap-8 rounded-3xl bg-white border border-[#F9F0E8] p-6 sm:p-10 lg:p-14">
               <div className="flex-1">
                 <p className="font-display text-[10px] font-semibold tracking-widest uppercase text-[#D4A574] mb-3">After Your Class</p>
                 <h3 className="font-serif text-4xl font-light text-[#1C1210] mb-4">Stay for <em>BRUME</em></h3>

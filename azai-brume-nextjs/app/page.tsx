@@ -82,13 +82,13 @@ export default function HomePage() {
           </AnimateIn>
           <div className="grid lg:grid-cols-2 gap-6">
             <AnimateIn direction="left" delay={0.1}>
-              <Link href="/azai" className="group relative block rounded-3xl overflow-hidden h-[500px]">
+              <Link href="/azai" className="group relative block rounded-3xl overflow-hidden h-[420px] md:h-[500px]">
                 <img src={IMAGES.azaiHiit} alt="AZAI Studio" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#1A0F0A]/85 via-[#1A0F0A]/30 to-transparent" />
-                <div className="absolute bottom-0 left-0 right-0 p-10">
+                <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10">
                   <p className="font-display text-[10px] font-semibold tracking-widest uppercase text-[#E8C5B0] mb-3">AZAI Wellness Studio</p>
-                  <h3 className="font-serif text-5xl font-light text-white italic mb-4">Move.</h3>
-                  <p className="font-sans text-sm font-light text-white/65 mb-6">Lagree · Reformer · HIIT · Yoga · Sauna · Massage</p>
+                  <h3 className="font-serif text-4xl md:text-5xl font-light text-white italic mb-3 md:mb-4">Move.</h3>
+                  <p className="font-sans text-sm font-light text-white/65 mb-5 md:mb-6">Lagree · Reformer · HIIT · Yoga · Sauna · Massage</p>
                   <span className="inline-flex items-center gap-2 bg-[#C17A5E] text-white font-display text-[10px] font-semibold tracking-widest uppercase px-5 py-2.5 rounded-full group-hover:bg-[#8B4A30] transition-colors duration-300">
                     Explore Classes →
                   </span>
@@ -96,13 +96,13 @@ export default function HomePage() {
               </Link>
             </AnimateIn>
             <AnimateIn direction="right" delay={0.1}>
-              <Link href="/brume" className="group relative block rounded-3xl overflow-hidden h-[500px]">
+              <Link href="/brume" className="group relative block rounded-3xl overflow-hidden h-[420px] md:h-[500px]">
                 <img src={IMAGES.brumeSplit} alt="BRUME Café" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#2C1A10]/85 via-[#2C1A10]/30 to-transparent" />
-                <div className="absolute bottom-0 left-0 right-0 p-10">
+                <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10">
                   <p className="font-display text-[10px] font-semibold tracking-widest uppercase text-[#D4A574] mb-3">BRUME Coffee Bar</p>
-                  <h3 className="font-serif text-5xl font-light text-white italic mb-4">Savor.</h3>
-                  <p className="font-sans text-sm font-light text-white/65 mb-6">Coffee · Pastries · Salads · Pour-Over · Daily 7AM–11PM</p>
+                  <h3 className="font-serif text-4xl md:text-5xl font-light text-white italic mb-3 md:mb-4">Savor.</h3>
+                  <p className="font-sans text-sm font-light text-white/65 mb-5 md:mb-6">Coffee · Pastries · Salads · Pour-Over · Daily 7AM–11PM</p>
                   <span className="inline-flex items-center gap-2 bg-[#D4A574] text-white font-display text-[10px] font-semibold tracking-widest uppercase px-5 py-2.5 rounded-full group-hover:bg-[#8B6340] transition-colors duration-300">
                     See the Menu →
                   </span>
@@ -189,6 +189,11 @@ export default function HomePage() {
                 </Link>
               </AnimateIn>
             ))}
+          </div>
+          <div className="mt-10 text-center md:hidden">
+            <Link href="/blog" className="inline-flex items-center gap-2 font-display text-[11px] font-semibold tracking-widest uppercase text-[#C17A5E] border border-[#C17A5E] px-6 py-3 rounded-full hover:bg-[#C17A5E] hover:text-white transition-all duration-300">
+              All Articles →
+            </Link>
           </div>
         </div>
       </section>

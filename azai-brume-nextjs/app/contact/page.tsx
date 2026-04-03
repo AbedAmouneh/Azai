@@ -73,7 +73,7 @@ export default function ContactPage() {
             <p className="font-display text-[10px] font-semibold tracking-[0.4em] uppercase text-[#C17A5E] mb-6">Find Us</p>
           </AnimateIn>
           <AnimateIn delay={0.1}>
-            <h1 className="font-serif text-white text-6xl lg:text-9xl font-light italic leading-none mb-6">
+            <h1 className="font-serif text-white text-4xl sm:text-6xl lg:text-8xl xl:text-9xl font-light italic leading-none mb-6">
               Come<br />Say Hello
             </h1>
           </AnimateIn>
@@ -180,7 +180,7 @@ export default function ContactPage() {
 
           {/* ── RIGHT: Form ── */}
           <AnimateIn direction="left" delay={0.15}>
-            <div className="bg-[#1C1210] rounded-2xl p-8 lg:p-10 sticky top-28">
+            <div className="bg-[#1C1210] rounded-2xl p-8 lg:p-10 lg:sticky lg:top-28">
               {sent ? (
                 <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} className="text-center py-12">
                   <p className="font-display text-[10px] font-semibold tracking-[0.4em] uppercase text-[#C17A5E] mb-6">Sent</p>

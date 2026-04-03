@@ -23,7 +23,7 @@ export default function BrumePage() {
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-10 pb-24 pt-32 w-full">
           <AnimateIn>
             <p className="font-display text-[10px] font-semibold tracking-widest uppercase text-[#D4A574] mb-4">BRUME: Coffee Bar</p>
-            <h1 className="font-serif text-7xl lg:text-[120px] font-light text-white italic leading-none mb-6">
+            <h1 className="font-serif text-[38px] sm:text-5xl md:text-7xl lg:text-[100px] xl:text-[120px] font-light text-white italic leading-none mb-6">
               A calm<br />escape in a<br /><span className="text-[#D4A574]">hidden corner.</span>
             </h1>
             <p className="font-sans text-base font-light text-white/65 max-w-md mb-10 leading-relaxed">
@@ -151,7 +151,7 @@ export default function BrumePage() {
       <section className="py-20 bg-[#1C1210]">
         <div className="max-w-7xl mx-auto px-6 lg:px-10">
           <AnimateIn>
-            <div className="flex flex-col md:flex-row items-center gap-8 rounded-3xl border border-white/8 p-10 lg:p-14">
+            <div className="flex flex-col md:flex-row items-center gap-8 rounded-3xl border border-white/8 p-6 sm:p-10 lg:p-14">
               <div className="flex-1">
                 <p className="font-display text-[10px] font-semibold tracking-widest uppercase text-[#C17A5E] mb-3">Before Your Coffee</p>
                 <h3 className="font-serif text-4xl font-light text-white mb-4">Earn it at <em>AZAI</em></h3>

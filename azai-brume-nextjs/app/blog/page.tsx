@@ -52,7 +52,7 @@ export default function BlogPage() {
             </p>
           </AnimateIn>
           <AnimateIn delay={0.1}>
-            <h1 className="font-serif text-white text-6xl lg:text-9xl font-light italic leading-none mb-6">
+            <h1 className="font-serif text-white text-4xl sm:text-6xl lg:text-8xl xl:text-9xl font-light italic leading-none mb-6">
               Stories &<br />Insights
             </h1>
           </AnimateIn>
@@ -83,7 +83,7 @@ export default function BlogPage() {
                 <div className="absolute inset-0 bg-gradient-to-r from-[#1C1210]/60 to-transparent" />
               </div>
               {/* Text */}
-              <div className="flex flex-col justify-center p-10 lg:p-14">
+              <div className="flex flex-col justify-center p-7 sm:p-10 lg:p-14">
                 <span
                   className={`inline-block font-display text-[9px] font-semibold tracking-widest uppercase px-3 py-1.5 rounded-full mb-6 w-fit ${
                     TAG_COLORS[featured.tag] ?? "bg-white/10 text-white/60"
